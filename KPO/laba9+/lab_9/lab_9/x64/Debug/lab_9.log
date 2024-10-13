@@ -1,0 +1,5 @@
+﻿  lab_9.cpp
+D:\laby\2_sem\kpo\9_лаба\lab_9\lab_9\lab_9.cpp(4,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Varparm.cpp
+  Создание кода...
+  lab_9.vcxproj -> D:\laby\2_sem\kpo\9_лаба\lab_9\x64\Debug\lab_9.exe

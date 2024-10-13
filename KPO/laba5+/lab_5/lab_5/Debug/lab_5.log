@@ -1,0 +1,28 @@
+﻿Сборка начата 26.04.2024 19:11:10.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\lab_5\lab_5.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\lab_5.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\lab_5.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp SE_Lab05.cpp lab_5.cpp
+         Dictionary.cpp
+         SE_Lab05.cpp
+         lab_5.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\Debug\lab_5.exe" /INCREMENTAL /ILK:"Debug\lab_5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\Debug\lab_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\Debug\lab_5.lib" /MACHINE:X86 Debug\Dictionary.obj
+         Debug\lab_5.obj
+         Debug\SE_Lab05.obj
+         lab_5.vcxproj -> C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\Debug\lab_5.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lab_5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab_5.tlog\lab_5.lastbuildstate".
+     1>Сборка проекта "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba5\lab_5\lab_5\lab_5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.86

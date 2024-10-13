@@ -1,0 +1,19 @@
+﻿Сборка начата 08.02.2024 11:48:26.
+Уровень детализации журнала: Normal.     1>Проект "D:\education\raboti\Labi\KPO_2sem\lab1\lab1-3\lab1\lab2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\lab1-3.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yc"stdafx.h" /Fp"Release\lab1-3.pch" /FAcs /Fa"(/Fa)" /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp ifYearLeap.cpp daySerialNumber.cpp dayBeforeBirthday.cpp check.cpp input.cpp
+     1>cl : командная строка  error D8036: "/Fa(/Fa)" не используется с несколькими исходными файлами
+     1>Сборка проекта "D:\education\raboti\Labi\KPO_2sem\lab1\lab1-3\lab1\lab2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\education\raboti\Labi\KPO_2sem\lab1\lab1-3\lab1\lab2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         cl : командная строка  error D8036: "/Fa(/Fa)" не используется с несколькими исходными файлами
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.15

@@ -1,0 +1,47 @@
+﻿Сборка начата 16.02.2024 18:22:44.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\lab2.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (lab1-1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "Debug\lab1-3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\lab1-3.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /FAcs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp ifYearLeap.cpp daySerialNumber.cpp dayBeforeBirthday.cpp check.cpp input.cpp
+         main.cpp
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\main.cpp(14,30): warning C4101: serialNumber: неиспользованная локальная переменная
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\main.cpp(14,44): warning C4101: dayBeforeBirthdayNumber: неиспользованная локальная переменная
+         ifYearLeap.cpp
+         daySerialNumber.cpp
+         dayBeforeBirthday.cpp
+         check.cpp
+         input.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\Debug\lab1-3.exe" /INCREMENTAL /ILK:"Debug\lab1-3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\Debug\lab1-3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\Debug\lab1-3.lib" /MACHINE:X86 Debug\main.obj
+         Debug\ifYearLeap.obj
+         Debug\daySerialNumber.obj
+         Debug\dayBeforeBirthday.obj
+         Debug\check.obj
+         Debug\input.obj
+         lab2.vcxproj -> C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\Debug\lab1-3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lab1-3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab1-3.tlog\lab1-3.lastbuildstate".
+     1>Сборка проекта "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\lab2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\lab2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (lab1-1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\lab2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\main.cpp(14,30): warning C4101: serialNumber: неиспользованная локальная переменная
+         C:\Users\bartyy\Desktop\ЛАБЫ\2sem\КПО НАРКЕВИЧ\laba1\lab1\lab1-3\lab1\main.cpp(14,44): warning C4101: dayBeforeBirthdayNumber: неиспользованная локальная переменная
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:02.13
